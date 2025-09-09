@@ -1,0 +1,78 @@
+{
+    "name": "FacetCreation",
+    "fantasyName": "FacetCreation",
+    "vendor": "JJ",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": "",
+        "SCS": ""
+    },
+    "description": "This extension is for creating facets and updating UI of PLP.",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/FacetCreation.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/FacetCreation/Configuration/FacetCreation.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/FacetCreation/Sass/_facetcreation-facetcreation.scss"
+        },
+        "files": [
+            "Modules/FacetCreation/Sass/_facetcreation-facetcreation.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/FacetCreation/Templates/jj_facetcreation_facetcreation.tpl",
+                    "Modules/FacetCreation/Templates/jj_facet_navigation.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/FacetCreation/JavaScript/JJ.FacetCreation.FacetCreation.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/FacetCreation/JavaScript/JJ.FacetCreation.FacetCreation.js",
+                    "Modules/FacetCreation/JavaScript/FacetCreation.View.js",
+                    "Modules/FacetCreation/JavaScript/JJ.FacetCreation.FacetCreation.Model.js",
+                    "Modules/FacetCreation/JavaScript/JJ.FacetCreation.FacetCreation.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/FacetCreation/SuiteScript/JJ.FacetCreation.FacetCreation.js",
+        "files": [
+            "Modules/FacetCreation/SuiteScript/JJ.FacetCreation.FacetCreation.js",
+            "Modules/FacetCreation/SuiteScript/FacetCreation.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\FacetCreation",
+    "suitescript2": {
+        "files": [
+            "Modules/FacetCreation/SuiteScript2/FacetCreation.Service.ss"
+        ]
+    }
+}

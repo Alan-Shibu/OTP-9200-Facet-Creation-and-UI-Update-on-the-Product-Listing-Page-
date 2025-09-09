@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "FacetCreation.config": {
+            "group": "extensions",
+            "subtab": "FacetCreation_subtab",
+            "type": "string",
+            "title": "FacetCreation_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}
